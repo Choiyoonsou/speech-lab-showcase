@@ -7,15 +7,14 @@
 파형과 주파수에서 시작해 STFT · 포먼트 · 운율 · MFCC를 거쳐<br>
 CNN · LSTM · Transformer · Conformer 음성인식 모델까지
 
-<!-- 배포 후 아래 주소를 실제 사이트 주소로 바꾸세요 -->
-**[▶ 사이트 바로가기](https://YOUR-SITE.onrender.com)**
+### **[▶ 사이트 바로가기](https://choiyoonsou.github.io/speech-lab-showcase/)**
+설치·가입 없이 브라우저에서 바로 사용 (Chrome · Edge 권장)
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?logo=vite&logoColor=white)
-![Django](https://img.shields.io/badge/Django-5.2-092E20?logo=django&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Web Audio](https://img.shields.io/badge/Web%20Audio%20API-FF6F00)
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?logo=githubpages&logoColor=white)
 
 </div>
 
@@ -30,8 +29,8 @@ CNN · LSTM · Transformer · Conformer 음성인식 모델까지
 - 🎙 **내 목소리로 실습** — 녹음하거나 파일을 열면 스펙트로그램 · 피치 · 포먼트 · 강도를 바로 분석
 - 🔬 **13가지 실험 도구** — 모음 합성기, STFT 탐색기, LPC, VOT, MFCC, Griffin-Lim, 신경망 시각화 등
 - 🗓 **13주 학습 계획** — 주차별 레슨과 Praat · Python 실습 과제
-- 👤 **회원 기능** — 가입하면 진도 · 퀴즈 기록 · 모음 측정값이 저장되어 어느 기기에서나 이어서 학습
-- 🔒 **개인정보 보호** — 녹음한 소리는 브라우저 안에서만 분석되고 서버로 전송되지 않음
+- 💾 **진도 저장** — 완료한 레슨 · 퀴즈 기록 · 모음 측정값이 브라우저에 저장되어 다음에 이어서 학습
+- 🔒 **개인정보 보호** — 모든 분석이 브라우저 안에서 이루어지며, 녹음한 소리는 어디로도 전송되지 않음
 
 ## 화면
 
@@ -57,11 +56,9 @@ CNN · LSTM · Transformer · Conformer 음성인식 모델까지
 |---|---|
 | ![CNN](docs/screenshots/cnn.png) | ![Attention](docs/screenshots/attention.png) |
 
-### 레슨 · 회원가입 · 학습 현황
+### 레슨 화면
 
-| 레슨 | 회원가입 | 내 계정 |
-|---|---|---|
-| ![레슨](docs/screenshots/lesson.png) | ![회원가입](docs/screenshots/signup.png) | ![내 계정](docs/screenshots/account.png) |
+![레슨](docs/screenshots/lesson.png)
 
 ## 커리큘럼
 
@@ -77,9 +74,7 @@ CNN · LSTM · Transformer · Conformer 음성인식 모델까지
 |---|---|
 | 프론트엔드 | React 18, TypeScript, Vite, React Router |
 | 신호처리 | FFT, STFT, 자기상관 피치 추정, LPC 포먼트 분석, 멜 필터뱅크 · MFCC, 켑스트럼, Griffin-Lim — 외부 라이브러리 없이 직접 구현해 브라우저에서 실행 |
-| 백엔드 | Django, Django REST Framework, 세션 인증 + CSRF 보호 |
-| 데이터베이스 | PostgreSQL |
-| 배포 | Docker, Render |
+| 배포 | GitHub Pages (서버 없이 동작하는 정적 사이트) |
 
 ---
 
